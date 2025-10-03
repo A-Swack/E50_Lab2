@@ -1,0 +1,27 @@
+# no arguments, reading from stdin
+echo "Hello world! 123 test-case." | ./words
+words/testing.sh: line 2: ./words: Is a directory
+
+# one file as input
+echo "This is a test file." > input1.txt
+./words input1.txt
+words/testing.sh: line 6: ./words: Is a directory
+
+# multiple files in sequence
+echo "Another file with words!" > input2.txt
+./words input1.txt input2.txt
+words/testing.sh: line 10: ./words: Is a directory
+
+# use '-' to mix stdin with files
+echo "Mixed stdin input." | ./words input1.txt - input2.txt
+words/testing.sh: line 13: ./words: Is a directory
+
+# file with no words
+echo "1234 !@#$$%" > empty.txt
+./words empty.txt
+words/testing.sh: line 17: ./words: Is a directory
+
+# non-existent file (should trigger error to stderr)
+./words no_such_file.txt
+words/testing.sh: line 20: ./words: Is a directory
+
