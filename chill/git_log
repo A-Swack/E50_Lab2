@@ -1,0 +1,35 @@
+commit 9504fe5dcacd2d07d57b362808b9b1b8841534d6
+Author: andrew swack <andrewswack1@gmail.com>
+Date:   Fri Oct 3 19:52:10 2025 -0400
+
+    added testing for words
+
+commit dad03833eb04f2a70217b18de0aa77dcc4f26619
+Author: andrew swack <andrewswack1@gmail.com>
+Date:   Fri Oct 3 19:44:31 2025 -0400
+
+    Organize histo files into histo directory
+
+commit b893a4c307d273ae10b9af0a2e8006bd770c58ad
+Author: andrew swack <andrewswack1@gmail.com>
+Date:   Fri Oct 3 19:27:09 2025 -0400
+
+    Add chill program with testing.sh and testing.out
+
+commit 87c89f89dfdaa682f69e0b12f25c753d205ee0fc
+Author: A-Swack <andrewswack1@gmail.com>
+Date:   Fri Oct 3 15:39:30 2025 -0400
+
+    Update README.md with late day
+
+commit 146896f17c8189d9e6a424f541defb410a3a31af
+Author: andrew swack <andrewswack1@gmail.com>
+Date:   Thu Oct 2 23:15:09 2025 -0400
+
+    Initial
+
+commit d28b2ebdb5d8c69f35fdc3ba3f9aa006ea8da81b
+Author: A-Swack <andrewswack1@gmail.com>
+Date:   Thu Oct 2 23:08:44 2025 -0400
+
+    Initial commit
