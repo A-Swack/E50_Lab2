@@ -1,0 +1,15 @@
+# Ignore the compiled binary
+/histo
+#was told to add the slash before by a friend better at git. There was an issue with git confusing the folder name with the binary name. Not sure why it only happened here
+
+# Emacs backup and scratch files
+*~
+\#*\#
+.\#*
+
+# MacOS stuff
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
