@@ -1,6 +1,12 @@
 ##Lab2 notesAndrew Swack
 #Finished Oct 2 2025
 
+```
+******************
+* EXTENSION USED *
+****************** 
+```
+
 #1.1 git repo
 used git init
 then git add README.md to track
